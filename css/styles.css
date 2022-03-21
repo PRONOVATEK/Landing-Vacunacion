@@ -1,0 +1,460 @@
+/* Font weights: 200;300;400;600;700;800;900 */
+/* Primary color: #2848c6 
+ Iconos Background-color y border: #f1f5ff
+ Text color
+ Titles: #203e72
+ Paragraph: #647289
+ Yellow: #ffd012
+ Background-yellow: #fff9e3
+ */
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    display:block;
+    margin: 0;
+    position: relative;
+    width: 100vw;
+    top: 0;
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.85); 
+    backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    -ms-backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-bottom: #FFFFFF 2px solid;
+    height: 110px;
+    width: 100vw;
+    padding-top: 3.4rem;
+    position:absolute;
+    margin: 0 auto;
+
+}
+
+nav ul {
+    color: #6d7b93;
+    display: inline;
+    float: right;
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-right: 2rem;
+
+}
+nav li {
+    display: inline;
+    margin: 1rem;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
+
+h2 {
+    color: #203e72;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+h3 {
+    color: #203e72;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+p {
+    color: #8492a8;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    vertical-align: middle;
+}
+
+i {
+    left: 25%;
+    position: relative;
+    top: 25%;
+}
+
+button {
+    background: linear-gradient(315deg, rgba(40,72,198,0.2) 13%, rgba(18,98,249,0.2) 86%);
+    color: #2848c6;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+    padding: 1.2rem 2.3rem;
+    position: relative;
+    top: 10%;
+
+}
+
+footer {
+    background-color: #f1f5ff;
+    height: 300px;
+}
+
+h1 {
+    color: #2848c6;
+    display: inline-block;
+    font-size: 2.1rem;
+    font-weight: 800;
+    margin: 1rem 3rem 1rem 5rem;
+    padding-bottom: 1rem;
+}
+
+footer div:first-child {
+    margin-left: 6rem;
+    padding-top: 3rem;
+    text-align: left;
+    width: 220px;
+}
+
+footer h1 {
+    margin-left: 0;
+}
+
+.Active, button:hover {
+    background: linear-gradient(315deg, rgba(40,72,198,1) 13%, rgba(18,98,249,1) 86%);
+    box-shadow: #2848c670 0 7px 15px;
+    color: #FFFFFF;
+
+}
+
+.width100 {
+    display: inline-flex;
+    width: 100%;
+    top: 0;
+
+}
+
+.width50 {
+    display: inline-flex;
+    width: 50%;
+}
+.width55 {
+    width: 55%;
+}
+
+.width47 {
+    display: inline-flex;
+    padding-top: 100px;
+    width: 47%;
+}
+
+.bloque1 {
+    display: block;
+    margin-top: 180px;
+}
+
+.bloque1 h2 {
+    margin: 10px 0;
+}
+
+.bloque1 div {
+    position: relative;
+    left: 10%;
+    top: 10%;
+    width: 50%;
+}
+
+.bloque2 {
+   padding-left: 100px; 
+   width: 75%;
+}
+
+.bloque3 {
+   padding-left: 100px; 
+   width: 80%;
+}
+
+
+.imgHero, figure {
+    width: 100%;
+    margin: 0;
+    float: right;
+}
+
+.textBlock {
+    width: 85%;
+}
+
+.beneficios {
+    display: flex;
+    height: 2.5rem;
+    margin-top: 3rem;
+    width: 70%;
+}
+
+.beneficios figure {
+    border: #FFFFFF solid 1px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: #ffd01235 0 7px 10px;
+    color: #ffd012;
+    background-color: #fff9e3;
+    height: 2rem;
+    margin-top: 0.5rem;;
+    width: 2rem;
+}
+
+.beneficios p, .preparaciones h4, {
+    color: #203e72;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.8rem;
+    padding-right: 1.5rem;
+}
+
+.beneficios i {
+    left: 25%;
+    position: relative;
+    top: 25%;
+}
+
+.blueIconTitleHero {
+    display: flex;
+    height: 2.5rem;
+    margin-top: 7rem;
+    width: 80%;
+}
+
+.blueIconTitleHero p {
+    color: #203e72;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: auto;
+    width: 80%;
+}
+
+.blueIconTitleHero figure {
+    border: #FFFFFF solid 1px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: #2848c630 0 7px 10px;
+    color: #2848c6;
+    background-color: #f1f5ff;
+    height: 2rem;
+    margin-top: 0.1rem;;
+    width: 2rem;
+}
+
+.datosCita {
+    background: rgba(255, 255, 255, 0.85); 
+    backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    -ms-backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: #FFFFFF 2px solid;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: #2848c630 0 7px 20px;
+    display: inline-flex;
+    height: 140px;
+    left: 4%;
+    padding-left: 3%;
+    position:absolute;
+    top: 770px;
+    width: 70%;
+}
+
+.datosCita div {
+    margin-top: 2rem;
+    width: 24%;
+}
+
+.datosCita figure, .preparaciones figure {
+    border: #FFFFFF solid 1px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #2848c6;
+    background-color: #f1f5ff;
+    height: 2rem;
+    margin-top: 0.1rem;;
+    position: absolute;
+    width: 2rem;
+}
+
+.datosCita p:first-of-type {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: auto;
+    padding-top: 0.5rem;
+    width: 60%;
+}
+
+.datosCita p:last-of-type {
+    color: #203e72;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: auto;
+    padding-top: 1rem;
+    width: 60%;
+}
+
+.listaVacunas {
+    height: 100px;
+    margin: auto;
+    padding: 0 6rem 0 8rem;
+}
+
+.listaVacunas div {
+    /* border: solid 3px black; */
+    display: inline-flex;
+    margin: 2rem 1.7rem;
+    width: 19%;
+}
+
+.listaVacunas figure {
+    max-width: 280px;
+    opacity: 10%;
+}
+
+.logoCentro {
+    position: relative;
+    top: 20px;
+    width: 240px;
+}
+
+.textoSeccion2  {
+    background-color: ;
+    display: block;
+    left: 10%;
+    margin: 150px 0 50px 0;
+    position: relative;
+    text-align: left;
+    width: 35%;
+}
+
+.seccionBeneficios {
+    display: inline-flex;
+    margin: 0 0 150px 7%;
+    width: 85vw;
+}
+
+.seccionBeneficios div {
+    border: #eff4fd solid 2px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    width: 18%;
+}
+
+.seccionBeneficios div:hover, .seccionBeneficios div:hover figure {
+    box-shadow: #2848c630 0 7px 25px;
+}
+
+.seccionBeneficios h4 {
+    color: #203e72;
+    font-size: 1.6rem;
+    font-weight: 500;
+    height: 70px;
+    margin-top: 70px;
+
+}
+
+.seccionBeneficios p {
+    font-size: 1rem;
+}
+
+.seccionBeneficios figure, .contact-card figure {
+    border: #FFFFFF solid 1px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #2848c6;
+    background-color: #f1f5ff;
+    font-size: 1.5rem;
+    height: 3rem;
+    margin-top: 0.1rem;;
+    position: absolute;
+    width: 3rem;
+}
+
+.preparaciones { 
+    width: 80%;
+    margin: 8% auto;
+}
+
+.preparaciones div, .contact-card {
+    border: #eff4fd solid 2px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: inline-flex;
+    height: 50px;
+    margin: 0.7rem;
+    padding-top: 10px;
+    padding-left: 1.4rem;
+    width: 75%;
+}
+
+.preparaciones h4 {
+    margin-left: 70px;
+}
+
+.preparaciones figure:last-child {
+    border: #FFFFFF solid 1px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #2848c6;
+    background-color: #f1f5ff;
+    display: absolute;
+    height: 1.3rem;
+    margin-top: 0.4rem;
+    right: 16%;
+    width: 1.3rem;
+}
+
+.seccion4 {
+    padding-top: 100px;
+}
+.contacto {
+    display: block;
+    margin-left: 12%;
+    width: 70%;
+    margin-bottom: 200px;
+}
+
+.contact-card {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    width: 200px;
+    height: 180px;
+}
+
+.contacto > div {
+    display: inline-flex;
+}
+
+
+.datos {
+    margin-left: 4rem;
+
+}
+
+.contact-card h4 {
+    color: #203e72;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.contact-card p {
+    font-size: 1rem;
+    margin-top: 0.3rem;
+}
